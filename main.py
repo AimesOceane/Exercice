@@ -47,3 +47,42 @@ def exo9():
     liste.sort()
     print(liste)
 exo9()
+
+def exo11():
+    liste = []
+    for i in range(10, 101):
+        liste.append(i)
+    print(liste)
+exo11()
+
+def exo12():
+    liste = []
+    for i in range(1, 101):
+        liste.append(i*2)
+    print(liste)
+exo12()
+
+def exo13():
+    import random
+    lancer = int(input("Lancer votre des : ")) 
+    des = []
+    for i in range(lancer):
+        de = random.randint(1, 6)
+        des.append(de)
+    somme = sum(des)
+    moy_des = somme / lancer
+    print(des, moy_des)
+exo13()
+
+def exo14():
+    lettre_a_chercher = "a"
+    phrase = "voila les amis. Alors ca va ?"
+    print(phrase.lower().count(lettre_a_chercher))
+exo14()
+
+def exo15():
+    liste = [100, 50, 65, 82, 23]
+    for i in range(len(liste)):
+        if i%2==0 : 
+            print(liste[i])
+exo15()
