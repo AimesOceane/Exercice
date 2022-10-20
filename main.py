@@ -34,3 +34,16 @@ def exo7():
     print(nouvelle_phrase)
 exo7()
 #Un programme qui demande a l utilisateur le nombre d'occurence qu"il veut retirer et aussi lui demander ce qu'il veut enlever 
+
+def exo8():
+    liste = ["Python", "C++", "HTML", "Java"]
+    for i in range(len(liste)):
+        print(liste[i])
+exo8()
+
+def exo9():
+    chaine = "pomme, abricot, cerise, fraise, orange"
+    liste = chaine.split(", ")
+    liste.sort()
+    print(liste)
+exo9()
